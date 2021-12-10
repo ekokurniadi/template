@@ -5,13 +5,14 @@ section.navigation {
 section.navigation a.navbar-brand {
     color: white;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 0.6px 0.2px black;
     font-weight: 600;
     font-size: 20pt;
 }
 
 section.navigation a.navbar-brand span {
     color: #f67001;
-    text-shadow: 1px 0.8px 0.2px white;
+    text-shadow: 1px 0.6px 0.2px black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20pt;
@@ -147,6 +148,22 @@ div.curved-jumbotron {
     right: 0;
 }
 
+div.curved-jumbotron_orange {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+div.curved-jumbotron_blue {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+
 section.overview div.card {
     box-shadow: rgba(80, 88, 95, 0.9) 1px 0px 40px 1px;
     border-radius: 20px;
@@ -170,7 +187,7 @@ section.about-us h4 {
 
 section.about-us p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 9pt;
+    font-size: 11pt;
     color: black;
     font-weight: 400;
 }
@@ -184,4 +201,179 @@ section.about-us div.card {
 section.about-us div.card svg {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+section.about-us-dua {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-image: url('/images/workers-examining-work.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    height: auto;
+    display: flex;
+    position: relative;
+    z-index: -3;
+}
+
+div.section-about-hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #525fe1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -2;
+}
+
+section.about-us-dua h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: 600;
+}
+
+section.about-us-dua p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+    color: black;
+    font-weight: 400;
+}
+
+div.card.card-bergabung {
+    padding: 10px;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    z-index: -1;
+    border-radius: 30px;
+    height: 300px;
+    min-height: 300px;
+}
+
+div.card-bergabung-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: -75px;
+    left: 25px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card.card-bergabung div.card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+div.card.card-bergabung div.card-footer button {
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1aaa70;
+    border: none;
+    box-shadow: rgba(54, 61, 66, 0.9) 1px 1px 0.5px 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+section.contact h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: 600;
+}
+
+section.contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: black;
+    font-weight: 400;
+}
+
+section.contact div.container {
+    box-shadow: rgba(80, 88, 95, 0.9) 1px 20px 50px 0.9px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+button.btn-kirim {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background-color: #f67001;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(54, 61, 66, 0.9) 1px 1px 0.5px 1px;
+}
+
+form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.footers {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: #525fe1;
+    color: white;
+    min-height: 280px;
+    margin-top: 0;
+}
+
+section.footers h4 {
+    font-size: 12pt;
+}
+
+section.footers a {
+    color: white;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+section.footers a:hover {
+    color: yellow;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+div.set2 {
+    justify-content: center;
+    background-color: red;
+    width: 30%;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+div.first {
+    border-right: 2px solid yellow;
+    min-height: 200px;
+    margin-top: 25px;
+}
+
+div.first2 {
+    /* border-right: 2px solid yellow; */
+    min-height: 200px;
+    margin-top: 25px;
+}
+
+div.footer-link {
+    font-size: 10pt;
+}
+
+div.footer-link a {
+    color: yellow;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
