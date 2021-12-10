@@ -1,0 +1,379 @@
+section.navigation {
+    background-color: #525fe1;
+}
+
+section.navigation a.navbar-brand {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 0.6px 0.2px black;
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+section.navigation a.navbar-brand span {
+    color: #f67001;
+    text-shadow: 1px 0.6px 0.2px black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+section.navigation ul li.nav-item a.nav-link {
+    font-size: 11pt;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+section.navigation ul li.nav-item a.nav-link :hover {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button.btn-login {
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f67001;
+    border-color: #f67001;
+    border-style: solid;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+button.btn-register {
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+button.btn-register:hover {
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f67001;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-size: 40px;
+    background-image: url("/images/list-icons.png");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #f67001;
+}
+
+section.jumbotron_ {
+    background-color: white;
+    min-height: 450px;
+    padding-top: 30px;
+}
+
+section.jumbotron_ div.jumbotron-text h4 {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #525fe1;
+    font-weight: 700;
+    font-size: 32pt;
+}
+
+section.jumbotron_ div.jumbotron-text p.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 10pt;
+    margin-top: 30px;
+}
+
+button.btn-circle {
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+    background-color: #f67001;
+    color: white;
+}
+
+section.overview {
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+
+section.overview p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    text-align: left;
+}
+
+section.overview h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+    text-shadow: 1px 0.8px 0.2px white;
+}
+
+div.curved-jumbotron {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+div.curved-jumbotron_orange {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+div.curved-jumbotron_blue {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+
+section.overview div.card {
+    box-shadow: rgba(80, 88, 95, 0.9) 1px 0px 40px 1px;
+    border-radius: 20px;
+}
+
+section.overview div.card h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    text-shadow: none;
+    min-height: 40px;
+    height: 40px;
+}
+
+section.about-us h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: 600;
+}
+
+section.about-us p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: black;
+    font-weight: 400;
+}
+
+section.about-us div.card {
+    box-shadow: rgba(80, 88, 95, 0.9) 1px 20px 50px 0.9px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+section.about-us div.card svg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+section.about-us-dua {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-image: url('/images/workers-examining-work.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    height: auto;
+    display: flex;
+    position: relative;
+    z-index: -3;
+}
+
+div.section-about-hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #525fe1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -2;
+}
+
+section.about-us-dua h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: 600;
+}
+
+section.about-us-dua p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+    color: black;
+    font-weight: 400;
+}
+
+div.card.card-bergabung {
+    padding: 10px;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    z-index: -1;
+    border-radius: 30px;
+    height: 300px;
+    min-height: 300px;
+}
+
+div.card-bergabung-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: -75px;
+    left: 25px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card.card-bergabung div.card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+div.card.card-bergabung div.card-footer button {
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1aaa70;
+    border: none;
+    box-shadow: rgba(54, 61, 66, 0.9) 1px 1px 0.5px 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+section.contact h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    color: black;
+    font-weight: 600;
+}
+
+section.contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: black;
+    font-weight: 400;
+}
+
+section.contact div.container {
+    box-shadow: rgba(80, 88, 95, 0.9) 1px 20px 50px 0.9px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+button.btn-kirim {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background-color: #f67001;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(54, 61, 66, 0.9) 1px 1px 0.5px 1px;
+}
+
+form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.footers {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: #525fe1;
+    color: white;
+    min-height: 280px;
+    margin-top: 0;
+}
+
+section.footers h4 {
+    font-size: 12pt;
+}
+
+section.footers a {
+    color: white;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+section.footers a:hover {
+    color: yellow;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+div.set2 {
+    justify-content: center;
+    background-color: red;
+    width: 30%;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+div.first {
+    border-right: 2px solid yellow;
+    min-height: 200px;
+    margin-top: 25px;
+}
+
+div.first2 {
+    /* border-right: 2px solid yellow; */
+    min-height: 200px;
+    margin-top: 25px;
+}
+
+div.footer-link {
+    font-size: 10pt;
+}
+
+div.footer-link a {
+    color: yellow;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
